@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+:root{
+    --body-color:#f5efed;
+    --first-color:#33312E;
+    --secend-color:#f6030f;
+    --third-color:#EE6c4d;
+    --fourth-color:#0f0a0a;
+    --fivth-color:#d06c06;
+    --six-color:#FFD700;
+}
+
+body{
+    background: var(--body-color);
+    font-family: 'Mukta', sans-serif;
+}
+
+/* =================== Navbar style ======================= */
+.nav{
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background: var(--fourth-color);
+
+}
+.nav_element{
+    list-style-type: none;
+    display: inline-flex;
+    float: right;
+}
+.nav_element li {
+    padding-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 17px;
+
+    
+}
+.item1{
+    position: relative;right: 65%;
+    font-family: 'Titan One', cursive;
+}
+.nav a{
+    text-decoration: none;
+    color: var(--six-color);
+}
+.nav a:hover{
+    text-decoration: none;
+    color: var(--body-color);
+}
+
+/* =================== Main_home style ======================= */
+.Main_home{
+width: 100%;
+height: 810px;
+background: var(--fourth-color);
+margin-bottom: 200px;
+
+}
+.Main_home img{
+    width:500px;
+    position: relative;
+    left: 750px; top: 50px;
+
+}
+/* =================== home style ======================= */
+
+.home{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+section svg{
+    position: absolute;
+    bottom: -270px;
+    z-index: 0;
+}
+.Main_home a{
+    font-size: 25px;
+    padding: 10px;
+    position: relative;
+    bottom: 350px; left: 200px;
+    text-decoration: none;
+    color: var(--six-color);
+
+}
+.Main_home a:hover{
+    color: var(--body-color);
+}
+.inf{
+    position: relative;
+    bottom: 350px; left: 220px;
+}
+.inf h2{
+    font-size: 28px; 
+    color: var(--body-color);
+}
+.inf h1{
+    font-size:50px; 
+    color: var(--body-color);
+}
+.inf p{
+    font-size: 19px; 
+    color: var(--body-color);
+}
+.inf button{
+    font-size: 18px; 
+    font: bold;
+}
+.btn_Abt{
+    background: var(--fourth-color);
+    border: solid var(--six-color);
+    border-radius: 30px;
+    width: 150px; height: 50px;
+    margin-top: 50px;
+    color: var(--body-color);
+}
+.btn_Get{
+    border-radius: 30px;
+    width: 150px; height: 50px;
+    margin-left:20px;
+    margin-top: 50px;
+    background: var(--fourth-color);
+    color: var(--body-color);
+    border: solid var(--secend-color);
+
+}
+.btn_Abt:hover{
+    background: var(--six-color);
+    color: var(--first-color);
+    transition:500ms;
+}
+.btn_Get:hover{
+    background: var(--secend-color);
+    border: none;
+    transition:500ms;
+}
+/* =================== aboutme style ======================= */
+
+.AbouteMe{
+    text-align: center;
+    position: relative;
+    top:-170px; left: 120px;
+    height:300px; width:100%;
+}
+.cont_about{
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.8);    
+    border-radius: 30px;
+    margin-bottom: 200px;
+    background: var(--six-color);
+}
+.div_abt {
+    background: var(--fourth-color);
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.8);    
+    border-radius: 30px; height: 620px; width: 800px;
+    position: absolute;
+    top:-30px; left: 300px;
+    color:var(--six-color);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 20px;
+
+}
+.cont_image img{
+    width: 200px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.8);    
+    margin-top: 10px;
+    border-radius: 20%;
+    float: left;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.cont_about h4{
+    position: relative;
+    left: 30px; top: 30px;
+    width: 230px;
+    font: bold;
+}
+
+/* =================== Resume style ======================= */
+
+.Resume{
+    width: 100%; height:550px;
+    background: var(--body-color);
+    position: relative;
+    top: 230px;
+}
+.Resume hr{
+    width: 0px; height: 300px;
+    position: relative;
+    left: 350px; bottom:300px ;
+    box-shadow: 0px 0px 3px 1px rgba(0, 0, 0, 0.7);    
+
+}
+.Resum_sid{
+    width: 200px; height: 400px;
+    position: relative;
+    left: 100px; top: 130px;
+}
+.Resum_sid a{
+    text-decoration: none;
+}
+.Resum_sid ul{
+    display:flexbox;
+    list-style-type: none;
+}
+.Resum_sid li{
+padding:10px ;
+border-radius: 50px;
+font-weight: 700;
+color: var(--first-color);
+}
+.Resum_sid li:hover{
+    background: var(--first-color);
+    color: var(--body-color);
+}
+
+.title_resume{
+    position: relative;
+    left: 47%;
+    color: var(--first-color);
+}
+.Resume_main{
+    width: 65vw;
+    height: 55vh;
+    background: var(--body-color);
+    position: relative;
+    bottom:115%; left: 400px;
+    overflow-x: hidden;
+    overflow-y:scroll ;
+}
+
+
+/* =================== My-Skills style ======================= */
+
+
+.Skills{
+    width: 100%;
+    background: var(--body-color);
+    position: relative;
+    top: 230px;
+}
+.Skills ul{
+    display:flex;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    list-style-type: none;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.Container_Skills{
+    text-align: center;
+    width: 300px; height: 400px;
+    border-radius: 30px;
+    position: relative;
+    left: 4%;
+    margin: 20px;
+    padding: 50px;
+    box-shadow: 0px 0px 10px 3px var(--fourth-color);
+}
+.Container_Skills:hover{
+    background: #FFB830;
+    transition: 700ms;
+    color: var(--fourth-color);
+}
+.Container_Skills img{
+    width:100px;
+}
+.title{
+    font-size: 40px;
+    font: bold;
+    position: relative;
+    left: 45%;
+    color: var(--first-color);
+}
+#item2{
+    position: relative;
+    top:30px;
+}
+/* =================== Contact style ======================= */
+
+.Contact{    
+    width: 100%;
+    height: 1100px;
+    background: var(--fourth-color);
+    color: red;
+    position: relative;
+    top: 300px;
+    border: solid black;
+    margin-bottom: 20px;
+    text-align: center;
+    color: var(--body-color);
+}
+.Contact svg{
+    position: relative;
+    top: -10px;
+    z-index: 0;
+}
+.cont{
+    background: var(--first-color);
+    width: 40%; height: 550px;
+    position: relative;
+    left: 30%;
+    border-radius: 20px;
+    text-align: center;
+} 
+.Contact ul{
+    list-style-type: none;
+    display: inline-flex;
+}
+.Contact button{
+    margin: 10px;
+    width: 200px; height: 50px;
+    border-radius: 15px;
+    border: none;
+}
+form{
+    position: relative;
+    top: 80px;
+}
+form input{
+    width: 300px; height: 40px;
+    border-radius: 10px;
+    border: none;
+}
